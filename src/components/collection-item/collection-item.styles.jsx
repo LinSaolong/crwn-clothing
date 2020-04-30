@@ -18,6 +18,15 @@ export const CollectionItemContainer = styled.div`
         display: flex;
         }
   }
+  @media (max-width: 1200px){
+    width: 21vw;
+  }
+  @media (max-width: 1000px){
+    width: 20vw;
+  }
+  @media (max-width: 860px){
+    width: 19vw;
+  }
 `;
 
 export const AddButton = styled(CustomButton)`
